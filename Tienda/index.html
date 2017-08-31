@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ShoeShop - Tienda Online!</title>
+    </head>
+    <body>
+        <style>
+            nav {
+                position: absolute; /* posicición absoluta */
+                right: 10px;   /* se inicia desde el lado derecho a los 10 px */
+                top: 0; /* se coloca en la parte de arriba a los 0 px */
+            }
+
+            .menu{
+                height: 4em; 
+                left: 0;
+                line-height: 4em;
+                box-shadow: -4px 7px 48px -13px rgba(0,0,0,0.75);
+                background-color: #ffea00;
+            }
+
+            nav ul {
+                margin: 0;
+                list-style: disc;
+                margin: 0 0 2em 0;
+                padding-left: 1em;
+            }
+
+            nav ul li {
+                display: inline-block;
+                margin-left: 1em;
+                padding-left: 0.5em;
+            }
+
+
+            nav ul li a {
+                border: 0;
+                color: inherit;
+                display: inline-block;
+                height: inherit;
+                line-height: inherit;
+                outline: 0;
+            }
+            body {
+                margin: 0; /* márgenes en 0 */
+                padding: 0; /* relleno en 0 */
+                background-color: #f5f5f5;  /* fondo de color gris */
+            }
+
+            .contenedor {
+                margin: auto; /* Margenes automáticos */
+                width: 90%;  /* anchura del 90 % */
+                background-color: white;  /* color de fondo blanco */
+                box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset; /* sombras */
+            }
+
+            .autoimg {
+	width: 100%; /* siempre ajustado a su contenedor */
+}
+.pie{
+	background-color: #212121; /* fondo color gris fuerte */
+	height: 200px;  /* altura de 200px */
+	color: white;  /* color de fuente blanco */
+	margin-top: 20px;  /* margen superior de 20 px */
+}
+
+
+        </style>
+
+        <!-- MENU DE NAVEGACION -->
+        <header class="menu">
+            <img alt="LOGO" src="imagenes/logo.png" width="150">
+            <nav >
+                <ul>
+
+                    <li><a  href="index.html">Inicio</a></li> 
+                    <li><a href="productos.html">Productos</a></li> 
+                    <li><a href="admin/login.html">Entrar</a></li> 
+                </ul>
+
+            </nav>
+        </header>
+        <br>
+        <section class="contenedor">
+            <!-- ESTA ES LA SECCIÓN DEL SLIDER -->
+            <div>
+                <img alt="" class="autoimg" src="imagenes/slider4.jpg" >
+            </div>
+
+
+            <!-- ESTA ES LA SECCIÓN DE NUESTRA EMPRESA -->
+            <div style="padding: 20px;">
+
+                <table>
+
+                    <tbody>
+
+                        <tr>
+
+                            <td>
+
+                                <div> 
+                                    <img alt="" class="autoimg" src="imagenes/z1.jpg" width="300">
+                                    <h2>¿Quienes somos?</h2>
+                                    <p>ShoeShop es una empresa Colombiana que se dedica en ofrecer zapatos de las mejoras marcas y calidad que se ajusten al precio del consumidor.</p>
+                                </div>
+                            </td>
+                            <td>
+
+                                <div>
+                                    <img alt="" class="autoimg" src="imagenes/z2.jpg" width="300">
+                                    <h2>¿Por que comprar en ShoeShop?</h2>
+                                    <p>ShoeShop tiene 20 años de servicio ofreciendo a sus clientes calzado de tal forma que éstos quedan satisfechos. Tus compras en ShoeShop son seguras.</p>
+                                </div>
+                            </td>
+
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+
+
+            </div>
+        </section>
+
+
+        <!-- ESTA ES LA SECCIÓN DE PIE DE PAGINA -->
+        <footer class="pie" >
+            <div style="padding: 20px;">
+                <p>ShoeShop © 2006-2017<br>
+                    Contacto: contacto@shoeshop.com
+
+                </p>
+
+            </div>   
+
+
+        </footer>
+
+
+    </body>
+</html>
+
